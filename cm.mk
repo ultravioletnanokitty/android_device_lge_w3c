@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 320
 TARGET_SCREEN_HEIGHT := 480
 
 # Release name
-PRODUCT_RELEASE_NAME := LG L40
-PRODUCT_NAME := cm_w3ds
+PRODUCT_RELEASE_NAME := LG-L34C
+PRODUCT_NAME := cm_w3c
 
-$(call inherit-product, device/lge/w3ds/full_w3ds.mk)
+$(call inherit-product, device/lge/w3c/full_w3c.mk)

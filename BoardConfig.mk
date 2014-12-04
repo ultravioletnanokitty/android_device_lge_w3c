@@ -23,9 +23,11 @@
 
 -include device/lge/msm8610-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := w3ds_global_com_defconfig
-BOARD_CUSTOM_BOOTIMG_MK := device/lge/w3ds/mkbootimg.mk
+TARGET_KERNEL_CONFIG := w3c_trf_us_defconfig
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/w3c/mkbootimg.mk
 
 DEVICE_RESOLUTION := 320x480
 
--include vendor/lge/w3ds/BoardConfigVendor.mk
+BOARD_USES_BOOTMENU := true
+
+-include vendor/lge/w3c/BoardConfigVendor.mk

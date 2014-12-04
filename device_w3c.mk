@@ -19,16 +19,12 @@ $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Specific overlay
-DEVICE_PACKAGE_OVERLAYS += device/lge/w3ds/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lge/w3c/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.device=w3ds \
-    ro.product.model=LG-D170 \
-    persist.radio.multisim.config=dsds \
+    ro.product.device=w3c \
+    ro.product.model=LG-L34C \
     ro.sf.lcd_density=160
-
-PRODUCT_COPY_FILES += \
-    device/lge/w3ds/mixer_paths.xml:system/etc/mixer_paths.xml
 
 PRODUCT_LOCALES := en_US
 PRODUCT_LOCALES += mdpi

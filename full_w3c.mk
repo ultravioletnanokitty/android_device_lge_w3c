@@ -16,12 +16,12 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, device/lge/w3ds/device_w3ds.mk)
+$(call inherit-product, device/lge/w3c/device_w3c.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := w3ds
-PRODUCT_NAME := full_w3ds
+PRODUCT_DEVICE := w3c
+PRODUCT_NAME := full_w3c
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := w3ds
-PRODUCT_MANUFACTURER := LGE
+PRODUCT_MODEL := Optimus Fuel
+PRODUCT_MANUFACTURER := LG
 
